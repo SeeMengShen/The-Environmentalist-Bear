@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Pink Butterfly
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 763803529329005418, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  - {fileID: -422346492997877176, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  - {fileID: 6743341301277075066, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  - {fileID: 6807753465985280802, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
