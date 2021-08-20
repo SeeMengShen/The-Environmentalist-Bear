@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Blue Butterfly
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -7249706959162414664, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  - {fileID: -207905439116574774, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  - {fileID: 7635429469110212809, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  - {fileID: 7362337716889196895, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
