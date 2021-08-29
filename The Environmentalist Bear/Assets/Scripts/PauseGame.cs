@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 public class PauseGame : MonoBehaviour
 {
     public bool paused;
+    public bool completed;
     public GameObject pauseMenu;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Pause"))
+        if (Input.GetButtonDown("Pause") && !(completed))
         {
             if (paused)
             {
@@ -31,14 +32,14 @@ public class PauseGame : MonoBehaviour
         paused = false;
     }
 
-    void pause()
+    public void pause()
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         paused = true;
     }
 
-    public void restart(string scene)
+    public void loadScene(string scene)
     {
         SceneManager.LoadScene(scene);
         Time.timeScale = 1f;

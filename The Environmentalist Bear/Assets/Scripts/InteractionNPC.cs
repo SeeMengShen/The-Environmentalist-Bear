@@ -5,6 +5,7 @@ using UnityEngine;
 public class InteractionNPC : MonoBehaviour
 {
     public GameObject interactNPC;
+    public GameObject tips;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class InteractionNPC : MonoBehaviour
         if (other.gameObject.CompareTag("NPC"))
         {
             interactNPC = other.gameObject;
+            tips.SetActive(true);
         }
     }
 
@@ -39,6 +41,7 @@ public class InteractionNPC : MonoBehaviour
         if (other.gameObject.CompareTag("NPC"))
         {
             interactNPC = null;
+            tips.SetActive(false);
         }
     }
 }
