@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Object
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,37 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background0
+    uniqueID: 806943223
+    locked: 0
+  - name: Background1
+    uniqueID: 3628392319
+    locked: 0
+  - name: Background2
+    uniqueID: 1090246595
+    locked: 0
+  - name: Background3
+    uniqueID: 1522766267
+    locked: 0
+  - name: Tile Background
+    uniqueID: 366048547
+    locked: 0
+  - name: Trees and others
+    uniqueID: 3814999645
+    locked: 0
+  - name: Player
+    uniqueID: 1611301013
+    locked: 0
+  - name: Land
+    uniqueID: 2629900909
+    locked: 0
+  - name: Waste Water
+    uniqueID: 2202807683
+    locked: 0
+  - name: Water
+    uniqueID: 1759907257
+    locked: 0
+  - name: UI
+    uniqueID: 1803376999
     locked: 0
