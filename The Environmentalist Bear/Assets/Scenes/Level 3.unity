@@ -10327,7 +10327,7 @@ Tilemap:
       - {fileID: -8429750022964371851, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: 3272956460052292646, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -4114736382164337828, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 25, y: -10, z: 0}
@@ -10435,7 +10435,7 @@ Tilemap:
       - {fileID: -8429750022964371851, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: 3272956460052292646, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -4114736382164337828, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 37, y: -10, z: 0}
@@ -11219,8 +11219,8 @@ GameObject:
   - component: {fileID: 1451163430}
   - component: {fileID: 1451163431}
   - component: {fileID: 1451163432}
-  - component: {fileID: 1451163433}
   - component: {fileID: 1451163434}
+  - component: {fileID: 1451163433}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11376,7 +11376,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1451163426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 213524ddae4cded41ab972d0a711758a, type: 3}
+  m_Script: {fileID: 11500000, guid: fb9f0a942a6f53e43b9f17809b376012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactNPC: {fileID: 0}
