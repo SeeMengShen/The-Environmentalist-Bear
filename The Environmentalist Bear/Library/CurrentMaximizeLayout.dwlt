@@ -21,8 +21,8 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
   controlID: -1
 --- !u!114 &2
@@ -218,9 +218,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ee510000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d451ffff78aeffffd2b5ffff8cc5ffffcef7ffff08f8ffff40fbffff80420000724a0000c84a0000
+      m_SelectedIDs: e4430000
+      m_LastClickedID: 17380
+      m_ExpandedIDs: 70f4ffff24f6ffff40fbffffac440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.706497, y: -4.1504903, z: -28.982367}
+    m_Target: {x: 35.550938, y: -5.8041296, z: -35.70548}
     speed: 2
-    m_Value: {x: -5.706497, y: -4.1504903, z: -28.982367}
+    m_Value: {x: 35.708992, y: -5.793644, z: -35.67972}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.366799
+    m_Target: 6.8328185
     speed: 2
-    m_Value: 8.366799
+    m_Value: 7.1547837
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -565,13 +565,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Map/Animated background
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets/Map/Animated background
+  - Assets/Prefabs
   m_LastFoldersGridSize: 53
   m_LastProjectPath: C:\CGD Assignment\The-Environmentalist-Bear\The Environmentalist
     Bear
@@ -579,9 +579,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 62}
-    m_SelectedIDs: d0510000
-    m_LastClickedID: 20944
-    m_ExpandedIDs: 00000000a0470000a2470000a4470000a6470000a8470000b847000000ca9a3b
+    m_SelectedIDs: 1e490000
+    m_LastClickedID: 18718
+    m_ExpandedIDs: 00000000084900000a4900000c4900000e4900001049000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -609,7 +609,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0470000a2470000a4470000a6470000a847000000ca9a3b
+    m_ExpandedIDs: 00000000084900000a4900000c4900000e4900001049000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,9 +634,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ee510000
-    m_LastClickedInstanceID: 20974
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: e4430000
+    m_LastClickedInstanceID: 17380
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000cc580000f0570000d44b0000a44b0000be440000644b0000a24a0000724d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -709,8 +709,8 @@ MonoBehaviour:
     y: 0
     width: 421.59998
     height: 731
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
