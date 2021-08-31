@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 32517
+  controlID: 86
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1385
     height: 947
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 32518
+  controlID: 121
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1385
     height: 596
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 32519
+  controlID: 122
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 309
     height: 596
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 74b6feff28b9feffe4bcfeff08befeffe4c0feffd4c5feff62c8feff2ccbfeff60cbfeff28cefeffbedcfeff06defeff80e0feffa6e7feff70eafeffc4eafeffacedfeff92f0feff32f4feff12f5feff52f8feffc8fafeff2cfbfeff90fefeffcc00ffffe401ffff7404ffff6406ffff7009ffff820dffff3811ffff5e12ffffb015ffffda15fffff032ffff8835ffff5c63ffff9268ffffb87bffffb67effffbe80ffffb689ffff9e97ffff729affffa29affffe6a4ffffc4a7ffffc2aaffffdcadffff1cbfffffbabfffffecbfffffe6c2ffffc8c4ffffd0c5ffffdcc8ffff68cdffff68ceffffdeceffffd6d1ffff1cd7ffff7edeffff7aeaffff7ceaffff0eecffff2eeeffff60eeffff6cf2ffff72faffff40fbffffde7500000681000094820000f8860000c88800002c89000094890000ca8900009a8b0000ce8d0000368e0000068f000068900000389200009c92000004930000869300008e930000ec9300005c950000f8970000429800007a980000e0980000649c0000009f00004a9f000068a1000038a300009ca3000062a90000f0a9000056aa0000d2ab0000a2ad000006ae00006eae00003cdd00008add0000d2dd000002ec00005cfa000072ff00009805010012080100ae0a0100740e0100521101002213010086130100ee130100a414010046180100ae1c0100ec1c01008c1d0100c42101000a2201000e2c0100b02e0100c42e010036340100783e01001a410100764301005a440100184601005a460100
+      m_SelectedIDs: 88960000
+      m_LastClickedID: 38536
+      m_ExpandedIDs: c6a0ffff88d0ffffc6d3ffff52d4ffffb6d8ffff96d9ffffe4dcffffe0e2ffffbee5ffff7ae9ffffbae9ffff30ecffffc2eefffff2efffff06f5fffffcf5ffff7af8ffff40fbffff8a4b0000204d00005a4d0000604f0000647600005a77000094770000207d00005c7d0000f47e00002e7f0000ca8100005a8b0000608d0000f68d0000368f0000ae950000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.718308, y: 1.3845553, z: 602.1179}
+    m_Target: {x: 1.6299458, y: -0.07396084, z: -15.373725}
     speed: 2
-    m_Value: {x: 12.6273775, y: 1.566418, z: 628.946}
+    m_Value: {x: 1.6299458, y: -0.07396084, z: -15.373725}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -512,9 +512,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.388166
+    m_Target: 7.7761774
     speed: 2
-    m_Value: 17.160383
+    m_Value: 7.7761774
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -532,7 +532,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.012769474, y: 0.52458626, z: -0.007869297, w: 0.851228}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -689,13 +689,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Lifty's Pixel Art Pack/Pixel Art Pack/Decorations
   m_LastFoldersGridSize: 53
   m_LastProjectPath: D:\School Game Dev\The-Environmentalist-Bear\The Environmentalist
     Bear
@@ -703,9 +703,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba440000
-    m_LastClickedID: 17594
-    m_ExpandedIDs: 00000000a2440000a4440000a6440000a8440000aa44000000ca9a3b
+    m_SelectedIDs: 24740000
+    m_LastClickedID: 29732
+    m_ExpandedIDs: 000000009a440000a044000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,7 +733,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2440000a4440000a6440000a8440000aa44000000ca9a3b
+    m_ExpandedIDs: 000000009a4400009c4400009e440000a0440000a2440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000cc580000f0570000d44b0000a44b0000be440000644b0000a24a0000724d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
