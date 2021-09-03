@@ -73,6 +73,12 @@ TagManager:
   - name: Water
     uniqueID: 1759907257
     locked: 0
+  - name: Sapling
+    uniqueID: 2290316831
+    locked: 0
+  - name: Pot
+    uniqueID: 745700611
+    locked: 0
   - name: UI
     uniqueID: 1803376999
     locked: 0
