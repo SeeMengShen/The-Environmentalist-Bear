@@ -132,7 +132,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.3744714
+  m_Radius: 0.15076426
 --- !u!114 &6395729753183593473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59eddcc2df5e67c4992e2634f480d2e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
 --- !u!1 &6395729753774174441
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +347,7 @@ Tilemap:
       - {fileID: 3888402906907434811, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -1249022901165329900, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -380437019955252317, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 40, y: -7, z: 0}

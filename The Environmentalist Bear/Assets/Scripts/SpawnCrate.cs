@@ -13,7 +13,7 @@ public class SpawnCrate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        crateCount = 0;
     }
 
     // Update is called once per frame
