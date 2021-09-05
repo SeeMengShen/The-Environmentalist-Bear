@@ -408,6 +408,8 @@ MonoBehaviour:
   paused: 0
   completed: 0
   pauseMenu: {fileID: 1140359071}
+  src: {fileID: 2090414554}
+  sound: {fileID: 8300000, guid: 9fe380fc8b662ce4da085192b9e386e7, type: 3}
 --- !u!1 &110997930
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,14 +618,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 83181475}
         m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: loadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 1
+          m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &146735694
@@ -6238,6 +6240,11 @@ PrefabInstance:
       objectReference: {fileID: 2008604428}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e10e20208a2f3f24da7d45bca2a5edd5, type: 3}
+--- !u!1 &714666958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6024534500994048038, guid: e10e20208a2f3f24da7d45bca2a5edd5, type: 3}
+  m_PrefabInstance: {fileID: 714666957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &723047407
 GameObject:
   m_ObjectHideFlags: 0
@@ -6536,14 +6543,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 83181475}
         m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: loadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 1
+          m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &747717457
@@ -8117,8 +8124,16 @@ PrefabInstance:
       value: 0.6806755
       objectReference: {fileID: 0}
     - target: {fileID: 7170693803191640496, guid: 6a05afc8246008541b4abaa90fd74bfb, type: 3}
+      propertyPath: m_Size.y
+      value: 0.08369151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7170693803191640496, guid: 6a05afc8246008541b4abaa90fd74bfb, type: 3}
       propertyPath: m_Offset.x
-      value: -0.012674555
+      value: -0.01267457
+      objectReference: {fileID: 0}
+    - target: {fileID: 7170693803191640496, guid: 6a05afc8246008541b4abaa90fd74bfb, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.25815427
       objectReference: {fileID: 0}
     - target: {fileID: 7564418453699772264, guid: 6a05afc8246008541b4abaa90fd74bfb, type: 3}
       propertyPath: m_Name
@@ -9985,6 +10000,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f25236892661a49ba3470f8b623d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 714666958}
+  skinChange: 0
+  grizzly: {fileID: 21300000, guid: 8c5c86770323e9d4fa67a4d0f7a7e3e3, type: 3}
+  panda: {fileID: 21300000, guid: d8d8b9244fa7bc448a303b5dc53aef60, type: 3}
   goal: {fileID: 110997930}
   hint: 0
   current: {fileID: 676756551}

@@ -8,6 +8,8 @@ public class PauseGame : MonoBehaviour
     public bool paused;
     public bool completed;
     public GameObject pauseMenu;
+    public AudioSource src;
+    public AudioClip sound;
 
     // Update is called once per frame
     void Update()
@@ -16,6 +18,7 @@ public class PauseGame : MonoBehaviour
         {
             if (paused)
             {
+
                 resume();
             }
             else
@@ -27,6 +30,7 @@ public class PauseGame : MonoBehaviour
 
     public void resume()
     {
+        src.PlayOneShot(sound);
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         paused = false;
@@ -34,6 +38,7 @@ public class PauseGame : MonoBehaviour
 
     public void pause()
     {
+        src.PlayOneShot(sound);
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         paused = true;
@@ -41,6 +46,7 @@ public class PauseGame : MonoBehaviour
 
     public void loadScene(string scene)
     {
+        src.PlayOneShot(sound);
         SceneManager.LoadScene(scene);
         Time.timeScale = 1f;
     }
@@ -48,10 +54,5 @@ public class PauseGame : MonoBehaviour
     public void mute()
     {
 
-    }
-
-    public void quit(string scene)
-    {
-        SceneManager.LoadScene(scene);
     }
 }
