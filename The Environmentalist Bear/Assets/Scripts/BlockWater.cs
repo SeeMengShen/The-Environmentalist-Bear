@@ -5,6 +5,7 @@ using UnityEngine;
 public class BlockWater : MonoBehaviour
 {
     public GameObject gameController;
+    public GameObject afterDestroy;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +13,7 @@ public class BlockWater : MonoBehaviour
         {
             gameController.GetComponent<GameController>().updateCurrent();
             Destroy(this.gameObject);
+            afterDestroy.gameObject.SetActive(true);
             gameController.GetComponent<GameController>().checkCompleteMission();
         }
     }
