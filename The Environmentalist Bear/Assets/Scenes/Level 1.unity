@@ -532,6 +532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completeLevel: {fileID: 1151669151}
+  gc: {fileID: 1841841167}
+  levelInt: 1
   pg: {fileID: 83181475}
 --- !u!1 &146735691
 GameObject:
@@ -9794,6 +9796,10 @@ MonoBehaviour:
   panda: {fileID: 21300000, guid: d8d8b9244fa7bc448a303b5dc53aef60, type: 3}
   goal: {fileID: 110997930}
   hint: 0
+  level2Button: {fileID: 0}
+  level3Button: {fileID: 0}
+  locked2Text: {fileID: 0}
+  locked3Text: {fileID: 0}
   current: {fileID: 676756551}
   completeText: {fileID: 1863312720}
   max: 3
@@ -12092,7 +12098,7 @@ Tilemap:
       - {fileID: 4010392447829633150, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 5941220165553586559, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 8200797495412401970, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -35, y: -3, z: 0}
@@ -12141,7 +12147,7 @@ Tilemap:
       - {fileID: -422346492997877176, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 6743341301277075066, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 6807753465985280802, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -44, y: -2, z: 0}

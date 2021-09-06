@@ -9,6 +9,12 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenu;
     public AudioSource src;
     public AudioClip sound;
+    public GameObject[] journalChapters;
+
+    void Start()
+    {
+        gc.checkLevelProgress();
+    }
 
     void Update()
     {
@@ -39,6 +45,20 @@ public class MainMenu : MonoBehaviour
         src.PlayOneShot(sound);
         mainMenu.SetActive(true);
         thisObject.SetActive(false);
+    }
+
+    public void nextPage(int currentPage)
+    {
+        src.PlayOneShot(sound);
+        journalChapters[currentPage - 1].SetActive(false);
+        journalChapters[currentPage].SetActive(true);
+    }
+
+    public void prevPage(int currentPage)
+    {
+        src.PlayOneShot(sound);
+        journalChapters[currentPage - 1].SetActive(false);
+        journalChapters[currentPage - 2].SetActive(true);
     }
 
     public void quitGame()

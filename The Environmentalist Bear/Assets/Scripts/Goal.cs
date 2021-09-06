@@ -5,6 +5,8 @@ using UnityEngine;
 public class Goal : MonoBehaviour
 {
     public GameObject completeLevel;
+    public GameController gc;
+    public int levelInt;
     public PauseGame pg;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -14,6 +16,7 @@ public class Goal : MonoBehaviour
             completeLevel.SetActive(true);
             Time.timeScale = 0f;
             pg.completed = true;
+            gc.completeLevelInt(levelInt);
         }
     }
 }
