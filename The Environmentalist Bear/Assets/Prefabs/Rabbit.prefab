@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6788288503732719970}
   - component: {fileID: 6788288503732719969}
   - component: {fileID: 6788288503732719968}
+  - component: {fileID: 1430622508602405683}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -102,3 +103,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1430622508602405683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6788288503732719975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e45fc7e2d70be4e9add2ba42b79c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  animator: {fileID: 6788288503732719968}
+  moveSpeed: 1.2

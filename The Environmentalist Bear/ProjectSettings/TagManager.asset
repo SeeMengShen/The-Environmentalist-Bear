@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Object
   - NPC
+  - Crate
   layers:
   - Default
   - TransparentFX
@@ -67,6 +68,12 @@ TagManager:
   - name: Land
     uniqueID: 2629900909
     locked: 0
+  - name: Limestone
+    uniqueID: 847146083
+    locked: 0
+  - name: Bush
+    uniqueID: 52902635
+    locked: 0
   - name: Waste Water
     uniqueID: 2202807683
     locked: 0
@@ -81,10 +88,4 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1803376999
-    locked: 0
-  - name: Limestone
-    uniqueID: 847146083
-    locked: 0
-  - name: Bush
-    uniqueID: 52902635
     locked: 0

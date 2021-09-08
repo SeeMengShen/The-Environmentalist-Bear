@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7099784502253523792}
   - component: {fileID: 7099784502253523799}
   - component: {fileID: 7099784502253523798}
+  - component: {fileID: -2508613654307400371}
   m_Layer: 0
   m_Name: Flying Fish
   m_TagString: Untagged
@@ -102,3 +103,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-2508613654307400371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7099784502253523797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e45fc7e2d70be4e9add2ba42b79c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  animator: {fileID: 7099784502253523798}
+  moveSpeed: 0.8
