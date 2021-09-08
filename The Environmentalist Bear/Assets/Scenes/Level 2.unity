@@ -473,7 +473,7 @@ Tilemap:
       - {fileID: -8429750022964371851, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: 3272956460052292646, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -4114736382164337828, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 0, y: -1, z: 0}
@@ -10512,6 +10512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 511371782943113908, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1362985552307346494, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
       propertyPath: m_Text
       value: Acid Rain - The Acidic Area
@@ -10624,6 +10628,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1094740863}
+    - target: {fileID: 7683733266713507621, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7683733266713507623, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
       propertyPath: src
       value: 
@@ -14616,7 +14624,7 @@ Tilemap:
       - {fileID: -422346492997877176, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 6743341301277075066, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 6807753465985280802, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -12, y: -1, z: 0}
@@ -14713,7 +14721,7 @@ Tilemap:
       - {fileID: -2515119647271386012, guid: 4d33f1aa7cf312b4c9f09b998744895e, type: 3}
       - {fileID: 4722928884938369969, guid: 4d33f1aa7cf312b4c9f09b998744895e, type: 3}
       - {fileID: 6094314589508499237, guid: 4d33f1aa7cf312b4c9f09b998744895e, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 13, y: 3, z: 0}
@@ -17017,7 +17025,7 @@ Tilemap:
       - {fileID: -8429750022964371851, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: 3272956460052292646, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -4114736382164337828, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 25, y: -7, z: 0}
@@ -17044,7 +17052,7 @@ Tilemap:
       - {fileID: -8429750022964371851, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: 3272956460052292646, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -4114736382164337828, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 28, y: -7, z: 0}
@@ -17098,7 +17106,7 @@ Tilemap:
       - {fileID: -8429750022964371851, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: 3272956460052292646, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
       - {fileID: -4114736382164337828, guid: ed9e32fd1bc536045920cc76f3079d24, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 34, y: -7, z: 0}

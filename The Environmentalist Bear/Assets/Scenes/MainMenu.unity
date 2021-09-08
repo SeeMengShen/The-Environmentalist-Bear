@@ -2339,7 +2339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Unity Assets Store: 2D Pixel Art - Distant Forest 64x64 ()\n\n\nhttps://maples.im/\n\n\nStardew
+  m_text: "Unity Assets Store: 2D Pixel Art - Distant Forest 64x64 (Lifty)\n\n\nhttps://maples.im/\n\n\nStardew
     Valley OST \u2013 A Golden Star is Born\r\nStardew Valley OST \u2013 Mines (The
     Lava Dwellers)\r\nHugo Moroux \u2013 Moods (Locrian)\r\nHugo Moroux \u2013 Moods
     (Aeolian)\r\n\n\nMiss Tan Bee Sian, Random Guy on YouTube and Coding Forums"
@@ -8648,7 +8648,7 @@ Tilemap:
       - {fileID: -7515452506508236677, guid: 4d33f1aa7cf312b4c9f09b998744895e, type: 3}
       - {fileID: -4001422471258990875, guid: 4d33f1aa7cf312b4c9f09b998744895e, type: 3}
       - {fileID: -923307541503138094, guid: 4d33f1aa7cf312b4c9f09b998744895e, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -8, y: 0, z: 0}

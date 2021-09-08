@@ -323,6 +323,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 511371782943113908, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1362985552307346494, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
       propertyPath: m_Text
       value: Deforestration - The Botak Area
@@ -435,6 +439,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2090414551}
+    - target: {fileID: 7683733266713507621, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7683733266713507623, guid: 9d7074720f56b8f41879bd3dcff8726a, type: 3}
       propertyPath: src
       value: 
@@ -10711,7 +10719,7 @@ Tilemap:
       - {fileID: -207905439116574774, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 7635429469110212809, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
       - {fileID: 7362337716889196895, guid: 80b56071c13d4854cb913a323961d9a6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -32, y: -3, z: 0}
